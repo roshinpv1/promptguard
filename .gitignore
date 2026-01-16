@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+artifacts/
+
+# Environment variables
+.env
+promptguard_agent/.env
+*.env
+!.env.example
+!promptguard_agent/.env.example
+
